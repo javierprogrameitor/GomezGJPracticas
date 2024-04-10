@@ -75,7 +75,7 @@ public class PrimerControlador extends HttpServlet {
             out.println("</div>");
 
             out.println("<div class='flex justify-center items-center'>");
-            out.println("       <button type='submit' class='size-20 bg-yellow-500 text-white rounded-md hover:bg-yellow-600'><a href=\"index.html\">Volver</a></button>");
+            out.println("       <button type='submit' class='size-20 bg-yellow-500 text-white rounded-md hover:bg-yellow-600'><a href=\"JSP/llamadasControlador.jsp\">Volver</a></button>");
             out.println("</div>");
 
             out.println("<footer class='footer items-center p-4 bg-green-100 text-orange-600 mt-28'>");
@@ -111,7 +111,7 @@ public class PrimerControlador extends HttpServlet {
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
             out.println("<!DOCTYPE html>");
-            out.println("<html>");
+            out.println("<html lang='es'>");
             out.println("<head>");
             out.println("<title>Servlet PrimerControlador</title>");
             out.println("<meta name='viewport' content='width=device-width, initial-scale=1.0'>");
@@ -161,7 +161,7 @@ public class PrimerControlador extends HttpServlet {
 
             out.println("</div>");
             out.println("   <div class='flex justify-center items-center'>");
-            out.println("       <button type='submit' class='size-20 bg-yellow-500 text-white rounded-md hover:bg-yellow-600'><a href=\"index.html\">Volver</a></button>");
+            out.println("       <button type='submit' class='size-20 bg-yellow-500 text-white rounded-md hover:bg-yellow-600'><a href=\"JSP/llamadasControlador.jsp\">Volver</a></button>");
             out.println("</div>");
 
             out.println("<footer class='footer items-center p-4 bg-green-100 text-orange-600 mt-10'>");
